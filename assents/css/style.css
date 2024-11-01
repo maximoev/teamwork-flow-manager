@@ -17,6 +17,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .user-icon_header {
@@ -94,5 +95,37 @@ main {
 /* Footer */
 
 footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile_list {
+  display: flex;
+  margin: 0.5rem;
+}
+
+.profile_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+  color: #4b4b4b;
+  text-decoration: none;
+}
+
+.profile_link:hover {
+  color: rgb(104, 104, 104);
+  font-weight: 500;
+}
+
+.profile-icons_link {
+  margin: 0 0.5rem;
+  width: 1rem;
 }
