@@ -12,7 +12,7 @@ header {
   width: 100%;
   background: #fafafa10;
   backdrop-filter: blur(0.4rem);
-  padding: 0.5rem;
+  padding: 0.3rem;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -21,7 +21,7 @@ header {
 }
 
 .user-icon_header {
-  width: 1.5rem;
+  width: 1.4rem;
 }
 
 /* Main */
@@ -83,13 +83,63 @@ main {
   cursor: pointer;
   border: none;
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin: 1rem;
 }
 
 .user_options button:hover {
   color: rgb(104, 104, 104);
   font-weight: 600;
+}
+
+#login_form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 50%;
+}
+
+.form_labels {
+  margin-top: 1rem;
+}
+
+.form_inputs {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  margin-top: 0.5rem;
+  border: none;
+  border-bottom: 1px solid #2c2c2c;
+  outline: none;
+  color: #4b4b4b;
+}
+
+.form_inputs:focus {
+  border-bottom: 2px solid #2c2c2c;
+}
+
+.form_submit {
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: #4b4b4b;
+  border: none;
+  color: #ececec;
+  width: 50%;
+  align-self: center;
+  transition: background 1s;
+}
+
+.form_submit:hover {
+  background: #414040;
+}
+
+.form_submit:active {
+  background: #2c2c2c;
 }
 
 /* Footer */
