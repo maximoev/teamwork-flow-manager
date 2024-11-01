@@ -3,6 +3,7 @@
 html,
 body {
   height: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Header */
@@ -31,16 +32,17 @@ main {
   justify-content: center;
   flex-direction: column;
   height: 100%;
-  width: 50%;
 }
 
 #company-info_section {
   text-align: center;
   background: radial-gradient(transparent, #000),
-    url(https://www.dilitrust.com/wp-content/uploads/benefits_second_480.jpg)
-      no-repeat;
+    url("../img/business-background.jpg") no-repeat;
   background-size: cover;
   color: rgb(209, 209, 209);
+  text-shadow: 5px 5px 10px #4b4b4b;
+  font-size: 0.9rem;
+  width: 45%;
 }
 
 .company-info_card {
@@ -50,21 +52,39 @@ main {
   align-items: center;
   justify-content: space-around;
   height: 60%;
-  width: 65%;
-  background: #5e5e5e93;
+  width: 60%;
+  background: #5e5e5e46;
   backdrop-filter: blur(0.4rem);
   padding: 2rem;
   border-radius: 1.5rem;
 }
 
+.company-info_image {
+  width: 60%;
+}
+
 #user-auth_section {
   background: #ececec;
+  width: 65%;
 }
 
 .user_options {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.user_options button {
+  cursor: pointer;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.user_options button:hover {
+  color: rgb(104, 104, 104);
+  font-weight: 600;
 }
 
 /* Footer */
