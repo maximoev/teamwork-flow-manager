@@ -1,1 +1,50 @@
+/* Global Styles */
 
+html,
+body {
+  height: 100%;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  background: #000000;
+  padding: 0.5rem;
+  position: fixed;
+}
+
+/* Main */
+
+main {
+  display: flex;
+  height: 100%;
+}
+
+.flex-items_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+
+#company-info_section {
+}
+
+#user-auth_section {
+  background: #e3e3e3;
+}
+
+.user_options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+}
