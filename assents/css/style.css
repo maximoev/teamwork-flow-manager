@@ -19,6 +19,10 @@ header {
   align-items: center;
 }
 
+.user-icon_header {
+  width: 1.5rem;
+}
+
 /* Main */
 
 main {
