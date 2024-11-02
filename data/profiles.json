@@ -2,7 +2,7 @@
   "admins": [
     {
       "id": "ce501eee-948e-4277-9db8-12e91e4f382c",
-      "username": "admin",
+      "name": "admin",
       "email": "admin@example.com",
       "password": "admin123",
       "role": "admin"
@@ -11,7 +11,7 @@
   "users": [
     {
       "id": "ea20f093-fb6a-4693-9e47-ff3761bef852",
-      "username": "user1",
+      "name": "user1",
       "email": "user1@example.com",
       "password": "user123",
       "role": "user"

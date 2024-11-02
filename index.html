@@ -52,7 +52,7 @@
             type="email"
             name="email"
             class="form_inputs"
-            id="email_input"
+            id="login-email_input"
             placeholder="Enter your email"
             required
           />
@@ -73,7 +73,53 @@
             value="Submit"
           />
         </form>
-        <form id="register_form" class="form"></form>
+        <form id="register_form" class="form">
+          <label for="register-fullname_input" class="form_labels"
+            >Full Name</label
+          >
+          <input
+            type="text"
+            name="fullname"
+            class="form_inputs"
+            id="register-fullname_input"
+            placeholder="Enter your full name"
+          />
+          <label for="register-email_input" class="form_labels"
+            >Email Address</label
+          >
+          <input
+            type="email"
+            name="email"
+            class="form_inputs"
+            id="register-email_input"
+            placeholder="Enter your email"
+            required
+          />
+          <label for="register-password_input" class="form_labels"
+            >Password</label
+          >
+          <input
+            type="password"
+            name="password"
+            class="form_inputs"
+            id="register-password_input"
+            placeholder="Type your password"
+            required
+          />
+          <label for="register-role_select" class="form_labels">Role</label>
+          <select name="role" id="register-role_select">
+            <option value="" selected hidden>Select your role</option>
+            <option value="user">User</option>
+            <option value="admin">Admin</option>
+          </select>
+          <input
+            type="submit"
+            name="submit"
+            id="register_submit"
+            class="form_submit"
+            value="Submit"
+          />
+        </form>
       </section>
     </main>
     <footer>
