@@ -92,7 +92,11 @@ main {
   font-weight: 600;
 }
 
-#login_form {
+.form {
+  display: none;
+}
+
+.form.active{
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -108,7 +112,6 @@ main {
   width: 100%;
   box-sizing: border-box;
   padding: 1rem;
-  border-radius: 0.5rem;
   background: transparent;
   margin-top: 0.5rem;
   border: none;
