@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "user_id": "ce501eee-948e-4277-9db8-12e91e4f382c",
+      "name": "Alice",
+      "email": "alice@example.com",
+      "account_type": "student",
+      "teams": ["t1", "t2"],
+      "permissions": {
+        "t1": "owner",
+        "t2": "member"
+      }
+    },
+    {
+      "user_id": "ea20f093-fb6a-4693-9e47-ff3761bef852",
+      "name": "Bob",
+      "email": "bob@example.com",
+      "account_type": "teacher",
+      "teams": ["t1"],
+      "permissions": {
+        "t1": "admin"
+      }
+    }
+  ],
+  "teams": [
+    {
+      "team_id": "t1",
+      "name": "Development Team",
+      "created_by": "ce501eee-948e-4277-9db8-12e91e4f382c",
+      "members": [
+        "ce501eee-948e-4277-9db8-12e91e4f382c",
+        "ea20f093-fb6a-4693-9e47-ff3761bef852"
+      ],
+      "permissions": {
+        "u1": "owner",
+        "u2": "admin"
+      }
+    },
+    {
+      "team_id": "t2",
+      "name": "Marketing Team",
+      "created_by": "ce501eee-948e-4277-9db8-12e91e4f382c",
+      "members": ["ce501eee-948e-4277-9db8-12e91e4f382c"],
+      "permissions": {
+        "u1": "owner"
+      }
+    }
+  ]
+}
