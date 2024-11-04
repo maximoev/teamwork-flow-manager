@@ -9,18 +9,28 @@ body {
 /* Header */
 
 header {
-  width: 100%;
-  background: #fafafa10;
-  backdrop-filter: blur(0.4rem);
-  padding: 0.3rem;
   position: fixed;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  top: 0;
+  right: 0;
   box-sizing: border-box;
+  padding: 1rem;
 }
 
-.user-icon_header {
+.logo_header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: #4b4b4b;
+  font-size: 0.8rem;
+}
+
+.logo_header:hover {
+  color: rgb(122, 122, 122);
+}
+
+.company-icon_header {
+  margin-left: 0.5rem;
   width: 1.4rem;
 }
 
@@ -57,7 +67,7 @@ main {
   align-items: center;
   justify-content: space-around;
   height: 60%;
-  width: 60%;
+  width: 50%;
   background: #5e5e5e46;
   backdrop-filter: blur(0.4rem);
   padding: 2rem;
@@ -170,6 +180,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-size: 0.8rem;
 }
 
 .profile_list {
@@ -187,8 +198,13 @@ footer {
 }
 
 .profile_link:hover {
-  color: rgb(104, 104, 104);
-  font-weight: 500;
+  color: rgb(122, 122, 122);
+}
+
+.profile_list-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .profile-icons_link {

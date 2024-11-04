@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assents/img/company-info-user-icon.svg" />
+    <link rel="icon" href="./assents/img/company-icon.svg" />
     <link rel="stylesheet" href="./assents/css/reset.css" />
     <link rel="stylesheet" href="./assents/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,25 +12,32 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>User Account Manager</title>
+    <title>Teamwork Flow Manager</title>
   </head>
   <body>
     <header>
-      <img
-        class="user-icon_header"
-        src="./assents/img/company-info-user-icon-light.svg"
-        alt="Company Icon."
-        id="company_icon"
-      />
+      <a
+        class="logo_header"
+        href="https://github.com/maximoev/teamwork-flow-manager"
+      >
+        <h2>Repository</h2>
+        <img
+          class="company-icon_header"
+          src="./assents/img/github-light-repository.svg"
+          alt="Company Icon."
+          id="company_icon"
+        />
+      </a>
     </header>
     <main>
       <section class="flex-items_main" id="company-info_section">
         <div class="company-info_card">
-          <h1>
-            Welcome to our user management platform. Register as a new team
-            member or log in if you already have an account. Keep your
-            information up-to-date to ensure a seamless experience.
-          </h1>
+          <h1>Teamwork Flow Manager</h1>
+          <p>
+            Welcome to our team management platform. Register or log in if you
+            already have an account. Keep your information up-to-date to ensure
+            a seamless experience.
+          </p>
           <img
             class="company-info_image"
             src="./assents/img/company-info-illustration.svg"
@@ -50,7 +57,6 @@
           >
           <input
             type="email"
-            name="email"
             class="form_inputs"
             id="login-email_input"
             placeholder="Enter your email"
@@ -59,7 +65,6 @@
           <label for="login-password_input" class="form_labels">Password</label>
           <input
             type="password"
-            name="password"
             class="form_inputs"
             id="login-password_input"
             placeholder="Type your password"
@@ -67,7 +72,6 @@
           />
           <input
             type="submit"
-            name="submit"
             id="login_submit"
             class="form_submit"
             value="Submit"
@@ -79,7 +83,6 @@
           >
           <input
             type="text"
-            name="fullname"
             class="form_inputs"
             id="register-fullname_input"
             placeholder="Enter your full name"
@@ -89,7 +92,6 @@
           >
           <input
             type="email"
-            name="email"
             class="form_inputs"
             id="register-email_input"
             placeholder="Enter your email"
@@ -100,7 +102,6 @@
           >
           <input
             type="password"
-            name="password"
             class="form_inputs"
             id="register-password_input"
             placeholder="Type your password"
@@ -114,7 +115,6 @@
           </select>
           <input
             type="submit"
-            name="submit"
             id="register_submit"
             class="form_submit"
             value="Submit"
@@ -125,7 +125,7 @@
     <footer>
       <p>My Profile</p>
       <ul class="profile_list">
-        <li>
+        <li class="profile_list-element">
           <a href="https://linkedin.com/in/maximoev" class="profile_link">
             <img
               class="profile-icons_link"
@@ -135,7 +135,7 @@
             Linkedin
           </a>
         </li>
-        <li>
+        <li class="profile_list-element">
           <a href="https://github.com/maximoev" class="profile_link">
             <img
               class="profile-icons_link"
